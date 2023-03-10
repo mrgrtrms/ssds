@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NULAP</title>
+    <script src="nav1.js"></script>
+</head>
+<style>
+    html {
+        background: #DFDFDF;
+        text-align: center;
+    }
+
+    .cont {
+        width: 100%;
+        height: 200px;
+        /* position: fixed; */
+        top: 100px;
+        background-image: url('nu.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .info {
+        background: #DFDFDF;
+        /* display: flex; */
+    }
+
+    .le {
+        Flex-basis: 30%;
+        padding: 20px 60px;
+    }
+
+    .le h1 {
+        /* padding-top: 80%; */
+        text-align: left;
+        margin: 25px 780px 25px 25px;
+        font-size: 25px;
+        color: rgb(29, 48, 155);
+        font-family: sans-serif;
+        
+    }
+
+    h1 {
+        text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+        border-bottom: rgb(29, 48, 155) solid 3px;
+        display: flex;
+    }
+
+    .none {
+        text-decoration: none;
+        color: black;
+    }
+</style>
+
+<body onload="insertNavbar()">
+    <div id="navbar"></div>
+
+    <div class="cont">
+    </div>
+
+    <div class="info">
+        <div class="le">
+            <h1 class="fw-bolder">Transactions</h1>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body shadow p-3 rounded">
+                            <!-- <h5 class="card-title">Special title treatment</h5> -->
+                            <p class="card-text text-center"><a href="balance.html" class="none">Queues</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body shadow p-3 rounded">
+                            <!-- <h5 class="card-title">Special title treatment</h5> -->
+                            <p class="card-text text-center"><a href="crud.html" class="none">Datas</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

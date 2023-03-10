@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  a {
+    color: #666;
+    font-size: 14px;
+    display: block;
+  }
+  
+  .login-title {
+    text-align: center;
+  }
+  
+  #login-page {
+    display: flex;
+  }
+  
+  .title {
+    color: white;
+  }
+  
+  .login {
+    width: 35%;
+    height: 100vh;
+    background: #0096ff;
+    padding: 30px;
+  }
+  
+  .login img {
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 80px;
+  }
+  
+  .form-login {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .form-login label {
+    text-align: left;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    color: #666;
+  }
+  
+  .input-username,
+  .input-password {
+    width: 100%;
+    background: #ededed;
+    margin: 4px 0 10px 0;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    padding: 4px;
+    margin-right: 5px;
+    color: #666;
+    min-width: 30px;
+    text-align: center;
+  }
+  
+  input[type="username"],
+  input[type="password"] {
+    width: 100%;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 4px;
+    outline: none;
+  }
+  
+  button[type="button"] {
+    width: 30%;
+    border: 0;
+    padding: 10px;
+    background: #ffaa48;
+    color: #FFF;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: ease all 0.3s;
+  }
+  
+  button[type="button"]:hover {
+    opacity: 0.9;
+  }
+  
+  button i {
+    margin-right: 5px;
+  }
+  
+  .button{
+    text-decoration: none;
+  }
+  
+  .background {
+    width: 65%;
+    padding: 40px;
+    height: 100vh;
+    background: url('nu.jpg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+  }
+  
+  .background h1 {
+    max-width: 420px;
+    color: #FFF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .form-container {
+    box-sizing: border-box;
+    background-color: rgb(3,186,251, 0.8);
+    padding: 6%;
+    width: 55%;
+  }
+  
+  .form-container h2 {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 30px;
+    margin-bottom: 1px;
+  }
+  
+  .form-container h3 {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  
+  .highlight {
+    color: #ffff1f;
+    text-shadow: white;
+  }
